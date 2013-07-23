@@ -1,0 +1,290 @@
+# Created by Octave 3.2.4, Fri Jul 19 18:21:48 2013 JST <hiroki@ChrUbuntu>
+# name: CPara
+# type: cell
+# rows: 4
+# columns: 1
+# name: <cell-element>
+# type: struct
+# length: 6
+# name: K
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ 2988.974580887646 0 1024.666407979698
+ 0 3000.405278237496 1029.223975134185
+ 0 0 1
+
+# name: kc
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 4
+ -0.2428283199746081 0.5158325403199696 0.0014064837415889 0.0012880637294475
+
+# name: P
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 5
+ 0 1368.7832 2780.5257 53.340187 2334.8982
+ 0 1612.8645 -445.24371 2686.847 2131.0051
+ 0 0.97523259 -0.13254865 -0.17706568 1.7738625
+
+# name: R
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ 0.147624 0.98621 0.074811
+ -0.164708 0.09909800000000001 -0.981352
+ -0.975233 0.132549 0.177066
+
+# name: t
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 3
+ 0.216217 -0.027181 -1.773862
+
+# name: ext
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 4
+ 0.147624 0.98621 0.074811 0.216217
+ -0.164708 0.09909800000000001 -0.981352 -0.027181
+ -0.975233 0.132549 0.177066 -1.773862
+
+# name: <cell-element>
+# type: struct
+# length: 6
+# name: K
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ 4699.876856218631 0 995.1409720343432
+ 0 4717.079931236531 1022.245142130196
+ 0 0 1
+
+# name: kc
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 4
+ -0.3913768440936293 -0.0185953260165541 0.0002626843236836 -0.0002045916176328
+
+# name: P
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 5
+ 0 565.96552 -409.38978 4538.715 969.20916
+ 0 561.74373 -4602.9965 -262.98346 553.55301
+ 0 0.98940933 -0.12523642 0.07338262199999999 1.6270676
+
+# name: R
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ -0.08221199999999999 -0.066844 0.994371
+ 0.119626 0.989873 0.076432
+ -0.989409 0.125236 -0.073383
+
+# name: t
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 3
+ -0.126802 0.278826 -1.627068
+
+# name: ext
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 4
+ -0.08221199999999999 -0.066844 0.994371 -0.126802
+ 0.119626 0.989873 0.076432 0.278826
+ -0.989409 0.125236 -0.073383 -1.627068
+
+# name: <cell-element>
+# type: struct
+# length: 6
+# name: K
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ 4648.60518114314 0 990.4697755029069
+ 0 4662.677624831504 1014.318802634382
+ 0 0 1
+
+# name: kc
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 4
+ -0.3726259530155535 -0.1964427677672661 0.0024603328970213 0.0018094824879872
+
+# name: P
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 5
+ 0 -1338.4698 137.53668 -4639.5458 184.473
+ 0 1191.0555 4640.2442 -197.91163 1539.7238
+ 0 0.90153514 -0.1380192 -0.41010377 1.5852163
+
+# name: R
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ -0.404923 0.065036 -0.912035
+ -0.15255 -0.9882919999999999 -0.002745
+ -0.901535 0.138019 0.410104
+
+# name: t
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 3
+ -0.183272 -0.151903 -1.585216
+
+# name: ext
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 4
+ -0.404923 0.065036 -0.912035 -0.183272
+ -0.15255 -0.9882919999999999 -0.002745 -0.151903
+ -0.901535 0.138019 0.410104 -1.585216
+
+# name: <cell-element>
+# type: struct
+# length: 6
+# name: K
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ 4720.046592145263 0 1019.105642521567
+ 0 4733.56723010615 1073.212399087417
+ 0 0 1
+
+# name: kc
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 4
+ -0.4084232671189134 0.32655864583003 -0.0013640316654388 0.0006593406519088
+
+# name: P
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 5
+ 0 1380.6048 140.3473 -4503.6384 2289.8795
+ 0 1433.4561 4482.61 332.02768 1800.8387
+ 0 0.9927563 -0.099353551 0.067555898 1.6596716
+
+# name: R
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 3
+ 0.072834 0.050488 -0.996065
+ -0.095552 -0.993771 -0.057358
+ -0.992756 0.099354 -0.067556
+
+# name: t
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 3
+ 0.11817 -0.030567 -1.659672
+
+# name: ext
+# type: cell
+# rows: 1
+# columns: 1
+# name: <cell-element>
+# type: matrix
+# rows: 3
+# columns: 4
+ 0.072834 0.050488 -0.996065 0.11817
+ -0.095552 -0.993771 -0.057358 -0.030567
+ -0.992756 0.099354 -0.067556 -1.659672
+
+
