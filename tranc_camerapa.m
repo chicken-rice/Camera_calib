@@ -1,5 +1,5 @@
 cam_num = 4;
-CPara = cell(cam_num, 1);
+Nenvir = cell(cam_num, 1);
 
 for i=1:cam_num
     [K, kc] = readradfile(['camerapara/Camera', num2str(i) '.rad']);
@@ -14,12 +14,16 @@ for i=1:cam_num
     ext = [R t'];
     save(['came_mat/ext', num2str(i), '.mat'], 'ext');
 
-    CPara{i}.K = K;
-    CPara{i}.kc = kc;
-    CPara{i}.P = P;
-    CPara{i}.R = R;
-    CPara{i}.t = t;
-    CPara{i}.ext = ext;
+    Nenvir{i}.R = R;
+    Nenvir{i}.T = t';
+    Nenvir{i}.om = rodrigues(R);
+    Nenvir{i}.fc = [K(1,1); K(2,2)];
+    Nenvir{i}.cc = [K(3,1); K(3,2)];
+    Nenvir{i}.kc = [kc, 0]';
+    Nenvir{i}.alpha_c = K(1,2) / K(1,1);
+    
 end
 
-save('came_mat/CPara.mat', 'CPara');
+Nenvir{1}
+
+save('came_mat/Nenvir.mat', 'Nenvir');
