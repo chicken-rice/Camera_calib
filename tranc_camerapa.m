@@ -27,3 +27,8 @@ end
 Nenvir{1}
 
 save('came_mat/Nenvir.mat', 'Nenvir');
+
+file = fopen('calib_Rti', 'w');
+for i=1:cam_num
+    disp(Nenvir{i});
+end
